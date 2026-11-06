@@ -1,0 +1,23 @@
+name: ViralServer
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: A social, replayable vanilla server experience without a proxy.
+commands:
+  viral:
+    description: Opens the viral server hub.
+    usage: /viral
+  spawn:
+    description: Teleports you to spawn.
+    usage: /spawn
+  kit:
+    description: Claims the starter kit.
+    usage: /kit
+  streak:
+    description: Shows your login streak.
+    usage: /streak
+permissions:
+  viral.admin:
+    description: Allows administration of the viral server.
+    default: op
